@@ -1,29 +1,3 @@
-
-# LLama3.2-OCR
-
-This project leverages Llama 3.2 vision and Streamlit to create a 100% locally running OCR app.
-
-## Installation and setup
-
-**Setup Ollama**:
-   ```bash
-   # setup ollama on linux 
-   curl -fsSL https://ollama.com/install.sh | sh
-   # pull llama 3.2 vision model
-   ollama run llama3.2-vision 
-   ```
-
-
-**Install Dependencies**:
-   Ensure you have Python 3.11 or later installed.
-   ```bash
-   pip install streamlit ollama
-   ```
-
----
-
-
-
 # LLama3.2-OCR
 
 LLama3.2-OCR is a locally running OCR (Optical Character Recognition) application built with the Llama 3.2 Vision model and Streamlit. This app extracts structured text from images and presents it in a clean, Markdown-formatted output. It ensures privacy and efficiency by processing all data locally.
