@@ -59,3 +59,6 @@ if 'ocr_result' in st.session_state:
 else:
     st.info("Upload an image and click 'Extract Text' to see the results here.")
 
+# Footer
+st.markdown("---")
+st.markdown("Made with ❤️ using Llama Vision Model2 | [Report an Issue](https://github.com/kanitvural/llama-ocr/issues)")
